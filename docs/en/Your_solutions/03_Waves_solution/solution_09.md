@@ -4,172 +4,104 @@
 
 Velocity vector:
 
-\[
-\vec{v} = (2\hat{i} - 4\hat{j} + \hat{k}) \ \text{m/s}
-\]
+v = (2i - 4j + k) m/s
 
 Magnetic field vector:
 
-\[
-\vec{B} = (\hat{i} + 2\hat{j} - \hat{k}) \ \text{T}
-\]
+B = (i + 2j - k) T
 
 Particle: Proton
 
 Charge of proton:
 
-\[
-q = 1.6 \times 10^{-19} \ \text{C}
-\]
+q = 1.6 × 10^-19 C
 
----
+--------------------------------------------------
 
 # Main Formula
 
-\[
-\vec{F}=q(\vec{v}\times\vec{B})
-\]
+F = q(v × B)
 
 Where:
 
-- \(\vec{F}\) = magnetic force vector  
-- \(q\) = electric charge of the particle  
-- \(\vec{v}\) = velocity vector  
-- \(\vec{B}\) = magnetic field vector  
-- \(\times\) = cross product operation  
+F = magnetic force vector  
+q = electric charge of the particle  
+v = velocity vector  
+B = magnetic field vector  
+× = cross product operation  
 
----
+--------------------------------------------------
 
 # Step 1 — Compute the Cross Product
 
-\[
-\vec{v} \times \vec{B}
-=
-\begin{vmatrix}
-\hat{i} & \hat{j} & \hat{k} \\
-2 & -4 & 1 \\
-1 & 2 & -1
-\end{vmatrix}
-\]
+v × B =
 
-Expanding the determinant:
+|  i    j    k  |
+|  2   -4    1  |
+|  1    2   -1  |
 
-\[
-=
-\hat{i}[(-4)(-1) - (1)(2)]
--
-\hat{j}[(2)(-1) - (1)(1)]
-+
-\hat{k}[(2)(2) - (-4)(1)]
-\]
+Expanding determinant:
 
----
+= i[(-4)(-1) - (1)(2)]
+- j[(2)(-1) - (1)(1)]
++ k[(2)(2) - (-4)(1)]
+
+--------------------------------------------------
 
 # Step 2 — Simplify Components
 
-## \( \hat{i} \)-component
+i-component:
 
-\[
 (-4)(-1) - (1)(2)
-=
-4 - 2
-=
-2
-\]
+= 4 - 2
+= 2
 
-## \( \hat{j} \)-component
+j-component:
 
-\[
 (2)(-1) - (1)(1)
-=
--2 - 1
-=
--3
-\]
+= -2 - 1
+= -3
 
-Because of the minus sign before \(\hat{j}\):
+Because of minus sign before j:
 
-\[
 -(-3) = 3
-\]
 
-## \( \hat{k} \)-component
+k-component:
 
-\[
 (2)(2) - (-4)(1)
-=
-4 + 4
-=
-8
-\]
+= 4 + 4
+= 8
 
-So:
+Therefore:
 
-\[
-\vec{v} \times \vec{B}
-=
-2\hat{i} + 3\hat{j} + 8\hat{k}
-\]
+v × B = 2i + 3j + 8k
 
----
+--------------------------------------------------
 
 # Step 3 — Find the Magnitude
 
-Magnitude formula:
+|v × B|
 
-\[
-|\vec{A}|= \sqrt{A_x^2+A_y^2+A_z^2}
-\]
+= √(2² + 3² + 8²)
 
-Apply it:
+= √(4 + 9 + 64)
 
-\[
-|\vec{v} \times \vec{B}|
-=
-\sqrt{2^2 + 3^2 + 8^2}
-\]
+= √77
 
-\[
-=
-\sqrt{4 + 9 + 64}
-\]
+≈ 8.775
 
-\[
-=
-\sqrt{77}
-\]
+--------------------------------------------------
 
-\[
-\approx 8.775
-\]
+# Step 4 — Calculate Magnetic Force
 
----
+|F| = q|v × B|
 
-# Step 4 — Calculate the Magnetic Force
+= (1.6 × 10^-19)(8.775)
 
-\[
-|\vec{F}|
-=
-q |\vec{v} \times \vec{B}|
-\]
+≈ 1.40 × 10^-18 N
 
-Substitute values:
-
-\[
-=
-(1.6 \times 10^{-19})(8.775)
-\]
-
-\[
-\approx 1.40 \times 10^{-18} \ \text{N}
-\]
-
----
+--------------------------------------------------
 
 # Final Answer
 
-\[
-\boxed{
-|\vec{F}| \approx 1.4 \times 10^{-18} \ \text{N}
-}
-\]
+|F| ≈ 1.4 × 10^-18 N
