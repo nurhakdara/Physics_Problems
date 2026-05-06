@@ -2,7 +2,9 @@
 
 
 
-
+-----
+-----
+-----
 
 Field at a Point from a System of Charges
 Given
