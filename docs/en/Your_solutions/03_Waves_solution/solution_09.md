@@ -1,7 +1,10 @@
 # 9. Vector Lorentz Force
 
+
 ---
+
 <img width="1387" height="134" alt="image" src="https://github.com/user-attachments/assets/319312d2-d248-4b1f-ab48-cd103d9c5715" />
+
 ---
 
 ## Given
