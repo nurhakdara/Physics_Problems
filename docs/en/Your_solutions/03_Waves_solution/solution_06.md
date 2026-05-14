@@ -46,27 +46,10 @@ Unknowns:
 - ω
 - B(x,t)
 
----
-
-# Step 1: Electric Field Direction
-
-The notation:
-
-E_y
-
-means the electric field oscillates along the y-axis.
-
-For electromagnetic waves:
-
-- Electric field (E)
-- Magnetic field (B)
-- Direction of motion
-
-are mutually perpendicular.
 
 ---
 
-# Step 2: Direction of Propagation
+# Direction of Propagation
 
 The wave equation is:
 
@@ -92,7 +75,7 @@ x-direction
 
 ---
 
-# Step 3: Find Wavelength
+# Find Wavelength
 
 Formula:
 
@@ -118,7 +101,7 @@ Answer:
 
 ---
 
-# Step 4: Find Angular Frequency
+# Find Angular Frequency
 
 For electromagnetic waves:
 
