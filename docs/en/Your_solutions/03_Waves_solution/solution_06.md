@@ -1,51 +1,215 @@
-An electromagnetic wave is given by:
+# EM Wave Analysis
 
-E
-y
-	​
+## Problem
 
-(x,t)=100sin(10
-7
-x−ωt)
+An electromagnetic wave has its electric field component given by:
 
-We need to find:
+E_y(x,t) = 100 sin(10^7 x − ωt) V/m
 
-Direction of propagation
-Wavelength λ
-Angular frequency ω
-Magnetic field equation
-Step 1: Write the givens
+Find:
 
-From the equation:
+1. Direction of propagation
+2. Wavelength (λ)
+3. Angular frequency (ω)
+4. Magnetic field equation
 
-E
-y
-	​
+---
 
-(x,t)=100sin(10
-7
-x−ωt)
+# Given
 
-Compare it with the standard electromagnetic wave form:
+Compare the given equation with the standard electromagnetic wave form:
 
-E=E
-0
-	​
+E = E₀ sin(kx − ωt)
 
-sin(kx−ωt)
+From:
 
-Now identify each quantity:
+E_y(x,t) = 100 sin(10^7 x − ωt)
 
-Given:
+we identify:
 
-E
-0
-	​
+E₀ = 100 V/m
 
-=100 V/m
+k = 10^7 rad/m
 
-Electric field amplitude
+c = 3 × 10^8 m/s
 
-k=10
-7
- rad/m
+Where:
+
+- E₀ = electric field amplitude
+- k = wave number
+- c = speed of light
+
+Unknowns:
+
+- Direction of propagation
+- λ
+- ω
+- B(x,t)
+
+---
+
+# Step 1: Electric Field Direction
+
+The notation:
+
+E_y
+
+means the electric field oscillates along the y-axis.
+
+For electromagnetic waves:
+
+- Electric field (E)
+- Magnetic field (B)
+- Direction of motion
+
+are mutually perpendicular.
+
+---
+
+# Step 2: Direction of Propagation
+
+The wave equation is:
+
+sin(kx − ωt)
+
+General rule:
+
+sin(kx − ωt) → wave travels in +x direction
+
+sin(kx + ωt) → wave travels in −x direction
+
+Since:
+
+E_y(x,t) = 100 sin(10^7 x − ωt)
+
+the wave propagates in:
+
+Direction = +x
+
+Answer:
+
+x-direction
+
+---
+
+# Step 3: Find Wavelength
+
+Formula:
+
+k = 2π / λ
+
+Rearrange:
+
+λ = 2π / k
+
+Substitute values:
+
+λ = 2π / (10^7)
+
+λ = 6.28 × 10^-7 m
+
+or:
+
+λ = 628 nm
+
+Answer:
+
+λ = 6.28 × 10^-7 m
+
+---
+
+# Step 4: Find Angular Frequency
+
+For electromagnetic waves:
+
+c = ω / k
+
+Rearrange:
+
+ω = ck
+
+Substitute values:
+
+ω = (3 × 10^8)(10^7)
+
+ω = 3 × 10^15 rad/s
+
+Answer:
+
+ω = 3 × 10^15 rad/s
+
+---
+
+# Step 5: Determine Magnetic Field Direction
+
+Use:
+
+E × B = direction of propagation
+
+Known:
+
+E → +y
+
+Propagation → +x
+
+We need:
+
+y × ? = x
+
+Using the right-hand rule:
+
+y × z = x
+
+Therefore:
+
+B points in the +z direction
+
+---
+
+# Step 6: Find Magnetic Field Magnitude
+
+Formula:
+
+B₀ = E₀ / c
+
+Substitute values:
+
+B₀ = 100 / (3 × 10^8)
+
+B₀ = 3.33 × 10^-7 T
+
+---
+
+# Step 7: Magnetic Field Equation
+
+General form:
+
+B_z(x,t) = B₀ sin(kx − ωt)
+
+Substitute values:
+
+B_z(x,t) = 3.33 × 10^-7 sin(10^7 x − ωt) T
+
+Answer:
+
+B_z(x,t) = 3.33 × 10^-7 sin(10^7 x − ωt) T
+
+---
+
+# Final Answers
+
+Direction of propagation:
+
++x
+
+Wavelength:
+
+6.28 × 10^-7 m
+
+Angular frequency:
+
+3 × 10^15 rad/s
+
+Magnetic field:
+
+B_z(x,t) = 3.33 × 10^-7 sin(10^7 x − ωt) T
