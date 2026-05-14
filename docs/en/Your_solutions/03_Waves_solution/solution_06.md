@@ -2,7 +2,7 @@ An electromagnetic wave is given by:
 
 E
 y
-	​
+=	​
 
 (x,t)=100sin(10
 7
