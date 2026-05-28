@@ -80,13 +80,8 @@ $$
 
 Substitute the values:
 
-$$
-=
-\left|
-\frac{2.99 \times 10^8 - 3.00 \times 10^8}
-{3.00 \times 10^8}
-\right| \times 100
-$$
+<img width="338" height="104" alt="image" src="https://github.com/user-attachments/assets/24b49bc8-27bb-4a8b-8e79-0a1533b18bf9" />
+
 
 $$
 \approx 0.33\%
