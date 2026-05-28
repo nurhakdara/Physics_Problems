@@ -1,100 +1,108 @@
-# 10. Light Speed Measurement
+10. Light Speed Measurement
 
 Measure the speed of light using a microwave oven, a bar of chocolate (or slices of cheese), and a ruler.
 
-The relation used is:
+The formula used is:
 
-\[
-c = f\lambda
-\]
+c=fλ
 
-where:
+Where:
 
-- \(c\) = speed of light  
-- \(f = 2.45 \times 10^9\ \text{Hz}\)  
-- \(\lambda\) = wavelength of the microwaves  
+c = speed of light
+f=2.45×10
+9
+Hz
+λ = wavelength of the microwaves
 
-The distance between two melted spots represents half the wavelength:
+The distance between two melted spots represents half of the wavelength:
 
-\[
-d = \frac{\lambda}{2}
-\]
+d=
+2
+λ
+	​
+
 
 Therefore:
 
-\[
-\lambda = 2d
-\]
+λ=2d
 
 Assume the measured distance between melted spots is:
 
-\[
-d = 6.1\ \text{cm} = 0.061\ \text{m}
-\]
+d=6.1cm=0.061m
 
-Then:
+Then the wavelength is:
 
-\[
-\lambda = 2(0.061)=0.122\ \text{m}
-\]
+λ=2(0.061)
+λ=0.122m
 
 Now calculate the speed of light:
 
-\[
-c = f\lambda
-\]
-
-\[
-c = (2.45\times10^9)(0.122)
-\]
-
-\[
-c \approx 2.99\times10^8\ \text{m/s}
-\]
+c=fλ
+c=(2.45×10
+9
+)(0.122)
+c≈2.99×10
+8
+m/s
 
 Experimental value:
 
-\[
-\boxed{c \approx 2.99 \times 10^8\ \text{m/s}}
-\]
+c≈2.99×10
+8
+m/s
 
 Accepted value:
 
-\[
-c_{\text{accepted}} = 3.00\times10^8\ \text{m/s}
-\]
+c
+accepted
+	​
 
-Percentage error:
+=3.00×10
+8
+m/s
 
-\[
-\%\text{ error}
+Percentage error formula:
+
+% error=
+	​
+
+c
+accepted
+	​
+
+c
+exp
+	​
+
+−c
+accepted
+	​
+
+	​
+
+	​
+
+×100
+
+Substitute the values:
+
 =
-\left|
-\frac{c_{\text{exp}}-c_{\text{accepted}}}
-{c_{\text{accepted}}}
-\right|\times100
-\]
+	​
 
-\[
-=
-\left|
-\frac{2.99\times10^8-3.00\times10^8}
-{3.00\times10^8}
-\right|\times100
-\]
+3.00×10
+8
+2.99×10
+8
+−3.00×10
+8
+	​
 
-\[
-\approx 0.33\%
-\]
+	​
 
-## Final Answer
-
-\[
-\boxed{c \approx 2.99\times10^8\ \text{m/s}}
-\]
-
-\[
-\boxed{\%\text{ error} \approx 0.33\%}
-\]
-
-The measured value is very close to the accepted speed of light, showing that the experiment gives a good approximation.
+×100
+≈0.33%
+Final Answer
+c≈2.99×10
+8
+m/s
+% error≈0.33%
